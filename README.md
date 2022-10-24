@@ -38,6 +38,13 @@ Adding `--task translate` will translate the subtitles into English:
 Run the following to view all available options:
 
     yt_whisper --help
+    
+    
+## srt파일 생성 사용법
+
+yt_whisper --format srt https://youtu.be/e_u1II0TfH8 --model medium
+
+yt_whisper --format srt https://youtu.be/e_u1II0TfH8 --task translate --model medium  (영어번역해서 생성)
 
 ## License
 
